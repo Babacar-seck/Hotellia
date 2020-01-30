@@ -1,0 +1,208 @@
+/*navbar*/
+
+nav {
+    margin: 0 auto;
+    width: 100%;
+  top: 0px;
+   background-color: grey;
+    
+}
+.side-menu
+{
+  font-size: 20px;
+}
+.side-menu ul 
+{
+  margin:0 auto;
+    
+  
+}
+.side-menu >ul >li
+{
+  list-style-type: none;
+  cursor: pointer;
+    padding-left: 100px;
+
+
+}
+
+
+.side-menu >ul>li> ul 
+{
+  display: none;
+  position: absolute;
+    list-style-type:none;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+    
+    
+  
+  
+  
+}
+.side-menu>ul>li:hover ul 
+{
+  display: block;
+  color: gold;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 2;
+
+    
+  
+    
+}
+.side-menu a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+
+
+    
+}
+.side-menu a:hover
+{
+    color: blue;
+    border-bottom: 2px solid blue;
+    text-decoration: none;
+}
+/*-----------------------------Bouton Reserve---------------*/
+.boutonReserv {
+  box-sizing: border-box;
+  background: darkblue !important;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.boutonReserv:hover, .boutonReserv:focus, .boutonReserv:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+   
+}
+
+.boutonReserv > a
+{
+    text-decoration:none;
+    color:white !important;
+}
+
+
+
+
+
+
+
+/*pied de page*/
+.petit{
+    width: 3em;
+    height: 3em;
+    margin: 2%;
+   
+   
+}
+
+
+.copyright{
+    width: 15px;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.button{
+    border-radius: 10px;
+    color: white;
+    background-color: darkblue;
+    
+}
+/**/
+h1{
+    font-family: "courgette", "serif"; 
+}
+ p, span, nav, footer{
+    font-family: 'Dosis', sans-serif; 
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.text
+{
+  position: absolute;
+  background-color: #ecf0f1;
+  color: black;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  overflow: none;
+}
+
+.myDiv0
+{
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ecf0f1;
+  margin-top: 80px;
+  border-radius: 10px 10px 10px 10px;
+}
+.row{
+    margin-top: 5%
+}
+.taille{
+    border-radius: 5%;
+    width: 50%;
+    height: 50%;
+   
+}
+.reduire{
+    border-radius: 4%;
+    width: 20%;
+}
+
+h4{
+    margin-bottom: 100px;
+}
+
+
+.left{
+    padding-left: 10%;
+}
+
+.place{
+    margin-top: 3%;
+   
+}
+
+.marge {
+    margin-top: 5%
+}
+
+h1{
+    font-family: "courgette", "serif"; 
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+    padding-top: 5%;
+}
+
+
+p, nav, footer{
+    font-family: 'Dosis', sans-serif; 
+    text-transform: uppercase;
+}
+

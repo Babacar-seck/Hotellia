@@ -1,0 +1,156 @@
+.reserver
+{
+    margin-right: 100px;
+    box-sizing: border-box;
+    border: 2px solid gold;
+    border-radius: 4px 4px 4px 4px;
+    background-color: gold;
+    height: 100%;
+    
+}
+nav {
+    margin: 0 auto;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+   background-color: grey;
+    
+}
+.side-menu
+{
+	
+	width:100%;
+	font-size: 20px;
+	background-color: #ddd;
+	 z-index: 100;
+	
+}
+.side-menu ul 
+{
+	margin:0 auto;
+    
+	
+}
+.side-menu >ul >li
+{
+	list-style-type: none;
+	cursor: pointer;
+    padding-left: 100px;
+}
+
+
+.side-menu >ul>li> ul 
+{
+	display: none;
+	position: absolute;
+    list-style-type: none;
+    
+    
+	
+	
+	
+}
+.side-menu>ul>li:hover ul 
+{
+	display: block;
+	width: 200px;
+	height: 200px;
+	color: gold;
+	background-color: transparent;	
+	
+    
+}
+.side-menu a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    
+}
+.side-menu a:hover
+{
+    color: red;
+    border-bottom: 2px solid blue;
+    text-decoration: none
+}
+
+
+
+
+
+
+
+
+/*pied de page*/
+.petit{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom:20px
+}
+
+.copyright{
+    width: 15px;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.button{
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    
+}
+
+
+/*-------------------Le Corps----------------*/
+.paris{
+	width: 100%;
+	height: 500px;
+	z-index:3;
+}
+
+.text{
+	position: absolute;
+	background-color:#ecf0f1;
+	color: black;
+	text-align: center;
+	width: 100%;
+	line-height: 70px;
+	overflow: none;
+}
+
+/*--------------Form -----------------*/
+
+
+h1{
+    font-family: "courgette", "serif"; 
+}
+
+h2{
+    font-family: 'Lobster Two', cursive;
+}
+
+
+input, label, footer{
+    font-family: 'Dosis', sans-serif; 
+    text-transform: uppercase;
+}
+
+.row{
+    margin-top: 5%;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: darkblue !important;  
+}
+
+.myForm{
+    margin-top:2%
+}
